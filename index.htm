@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+    <img src="ton-logo.png" alt="Logo" style="width: 100px; margin-bottom: 20px;">
+   
+    div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  <a>Mets ton logo dans le même dossier que index.html, ou utilise une image en ligne (via URL). </a><h2>📚 Mon Assistant IA</h2>
+  <p>Poser des questions à partir de PDFs et images.</p>
+  <a href="TON_LIEN_GPT" class="btn">💬 Parler à l’assistant</a>
+</div>
+<form onsubmit="event.preventDefault(); window.open('https://chat.openai.com/g/g-XXXXXXXX-ton-assistant?q=' + encodeURIComponent(document.getElementById('question').value))">
+  <input type="text" id="question" placeholder="Pose ta question ici..." required style="width: 80%; padding: 10px;">
+  <button type="submit" style="padding: 10px;">Envoyer</button>
+</form>
+<a>https://chat.openai.com/g/g-XXXXXXXX-ton-assistant?q=Quel+est+le+résumé+du+rapport%3F </a>
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Assistant IA</title>
+  <style>
+    body { font-family: Arial; padding: 40px; background: #f0f0f0; }
+    h1 { color: #333; }
+    p { font-size: 18px; }
+    a { color: #007BFF; text-decoration: none; }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bienvenue sur mon assistant IA</h1>
+  <p>Cet assistant peut répondre à vos questions à partir de documents PDF et d'images.</p>
+  <a href="https://chat.openai.com/g/g-XXXXXXXX-ton-assistant"  target="_blank" class="btn">Poser une question à l'assistant</a>
+    <h2>Nos assistants</h2>
+<a href="LIEN_ASSISTANT_1" target="_blank" class="btn">Assistant Contrats</a>
+<a href="LIEN_ASSISTANT_2" target="_blank" class="btn">Assistant Manuels</a>
+<a href="LIEN_ASSISTANT_3" target="_blank" class="btn">Assistant Images</a>
+
+</body>
+body {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+}
+.btn {
+  background-color: #ff9900;
+}
+</html>
